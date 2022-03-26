@@ -3,9 +3,19 @@ package com.mycorp.methods;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * class GetMethodOfArrayList
+ * Getting the last element by its index from ArrayList with size 100
+ */
 public class GetMethodOfArrayList extends Method {
+    /**
+     * ArrayList for test
+     */
     private List<Integer> testList;
 
+    /**
+     * Constructor of GetMethodOfArrayList
+     */
     public GetMethodOfArrayList()
     {
         super("Get method of ArrayList");

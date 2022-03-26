@@ -3,9 +3,20 @@ package com.mycorp.methods;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * class ContainsMethodOfArrayList
+ * Getting the last element by its value from ArrayList with size 101
+ */
 public class ContainsMethodOfArrayList extends Method{
+
+    /**
+     * ArrayList for test
+     */
     private List<Integer> testList;
 
+    /**
+     * Constructor of ContainsMethodOfArrayList
+     */
     public ContainsMethodOfArrayList()
     {
         super("Contains method of ArrayList");

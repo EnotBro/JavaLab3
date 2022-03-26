@@ -3,9 +3,20 @@ package com.mycorp.methods;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * class DeleteMethodOfArrayList
+ * Deleting the first element from the ArrayList
+ */
 public class DeleteMethodOfArrayList extends Method {
+
+    /**
+     * ArrayList for test
+     */
     private List<Integer> testList;
 
+    /**
+     * Constructor of DeleteMethodOfArrayList
+     */
     public DeleteMethodOfArrayList()
     {
         super("Delete method of ArrayList");

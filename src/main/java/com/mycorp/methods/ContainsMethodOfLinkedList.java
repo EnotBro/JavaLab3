@@ -3,9 +3,20 @@ package com.mycorp.methods;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * class ContainsMethodOfLinkedList
+ * Getting the last element by its value from LinkedList with size 101
+ */
 public class ContainsMethodOfLinkedList extends Method {
+
+    /**
+     * LinkedList for test
+     */
     private List<Integer> testList;
 
+    /**
+     * Constructor of ContainsMethodOfLinkedList
+     */
     public ContainsMethodOfLinkedList()
     {
         super("Contains method of LinkedList");

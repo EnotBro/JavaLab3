@@ -3,9 +3,19 @@ package com.mycorp.methods;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * class DeleteMethodOfLinkedList
+ * Deleting the first element from the LinkedList
+ */
 public class DeleteMethodOfLinkedList extends Method {
+    /**
+     * LinkedList for test
+     */
     private List<Integer> testList;
 
+    /**
+     * Constructor of DeleteMethodOfLinkedList
+     */
     public DeleteMethodOfLinkedList()
     {
         super("Delete method of LinkedList");
